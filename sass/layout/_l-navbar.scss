@@ -1,0 +1,16 @@
+$layout-name: "l-navbar";
+
+.#{$layout-name}{
+    padding: rem(10);
+    margin: rem(10) auto;
+    
+
+    a{
+        width: rem(80);
+        color: #444;
+
+        &:hover{
+            color: #c1b696;
+        }
+    }
+}

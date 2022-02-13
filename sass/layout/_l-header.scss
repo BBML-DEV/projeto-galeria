@@ -1,0 +1,25 @@
+$layout-name: "l-header";
+
+.#{$layout-name}{
+
+    border-bottom: 2px solid #f5f6f7;
+
+    #logo-container{
+        display: flex;
+        justify-content: center;
+        .logo{
+            width: rem(50);
+            margin-right: rem(15);
+        }
+    }
+
+        
+    p{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+
+  
+}

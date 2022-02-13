@@ -1,0 +1,33 @@
+$layout-name: "l-footer";
+
+.#{$layout-name}{
+    border-top: 2px solid #f5f6f7;
+    height: rem(250);
+    padding: rem(30);
+
+
+
+    p{
+        text-align: center;
+        margin: rem(20);
+
+    }
+
+
+    i{
+        font-size: rem(20);
+        color: gray;
+        
+        &:hover{
+            color: #c1b696;
+        }
+    }
+
+    #social{
+        padding: rem(25); 
+
+        div{
+            text-align: center;
+        }
+    }
+}

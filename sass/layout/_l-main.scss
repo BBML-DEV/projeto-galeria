@@ -1,0 +1,18 @@
+$layout-name: "l-main";
+
+.#{$layout-name}{
+    height: rem(400);
+    background-image: url(/img/g_1.jpg);
+    margin-bottom: rem(30);
+    position: relative;
+
+
+    &__info{
+        background-color: var(--color-webfatorial-white);
+        padding: rem(25);
+        position: absolute;
+        left: rem(25);
+        bottom: rem(25);
+        border-radius: rem(5);
+    }
+}
